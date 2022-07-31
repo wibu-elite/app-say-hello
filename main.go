@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
-
+import (
+	"fmt"
+	gosayhello "github.com/wibu-elite/go-say-hello"
+)
 func main() {
-	fmt.Println("hello")
-
+	fmt.Println(gosayhello.SayHello())
+	
 }
